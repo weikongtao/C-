@@ -39,7 +39,7 @@ const int cx = 20;
 const int &rx1 = x;  // const 引用可以被non-const左值初始化
 const int &rx2 = cx; // const 引用可以被const左值初始化
 const int &rx3 = 9;  // const引用可以被右值初始化 
-// +++++++++++++ 特别注意：const左值引用可以接受右值。+++++++++++++++
+// ++++ 特别注意：const左值引用可以接受右值。++++
 ```
 
 
